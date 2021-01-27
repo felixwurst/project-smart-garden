@@ -67,4 +67,5 @@ Teachers @ [DCI Hamburg](https://digitalcareerinstitute.org/):
 - Ahmad Osman
 - Mostafa Othman
 
-![Prototypes](./share/images/DSC03062_bearbeitet_hd.jpg)
+<!-- ![Prototypes](./share/images/DSC03062_bearbeitet_hd.jpg) -->
+<img src="./share/images/DSC03062_bearbeitet_hd.jpg" width="50%">
