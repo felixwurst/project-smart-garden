@@ -1,38 +1,70 @@
-# Smart Garden
+# Project: Smart Garden
+
+![Prototypes](./share/images/DSC03062_bearbeitet_hd.jpg)
 
 ### Description:
-This project is a web-based platform about plants and their cultivation. It should provide a range of services like a blog, a chat, a gallery and others. But the main goal is an application to control the breeding of plants. Therefore devices are needed, which are sold in the shop. After creating an account the user register a main device to get access to its dashboard through internet. When the serialnumber is correct, he can add modules like sensor for soil moisture to it, which are connected to the hub by RF. The actual measured value and before that in a period of 30 minutes will be shown on the display. The data of the devices get stored in the cloud. Now the user is able to observe or control the grow of his plants by using lights, waterpumps, heatings, etc. The collected data of the users can help to determine an optimized template of each kind of plant as an offer for an automized planting.
+
+This project is a web-based platform about plants and their cultivation. The main focus is on the application to control plant breeding. Various devices are used for this purpose. Individual modules (Arduino Nano) are equipped with different sensors or a water pump and communicate wirelessly with a main device (Raspberry Pi).
+
+![Function Overview](./share/images/smart-garden-diagram01_hd.jpg)
+
+After creating an account, the user registers a master device to access its dashboard via the internet. If the serial number is correct, he can add modules, such as a soil moisture sensor, which are connected to the hub via RF. The current measured value and previously saved ones in the database (this happens every 30 minutes) are shown on the display. Now the user can monitor the growth of his plants through the use of different sensors and water pumps.
+
+![Various Devices](./share/images/inatu_display_example.png)
 
 ### Details:
-For the frontend application we have used react. The functionality of the surface relies on reactstrap and bootstrap, but the design was completely changed. A color theme based on the world of plants divides the platform into different parts compared to their lifecycle. The optical appearance of the interface is less technical, more like a printed guidance and fact sheet written in scss. On backend side we have installed node.js and using a mysql database. For informations in realtime the devices are communicating with the application over websocket by socket.io.
 
-Coding and Modules:
-- HTML
-- SCSS
-- Vanilla-JS
+For the frontend application we used React. The interface uses the functionality of Reactstrap and Bootstrap, but the design was developed entirely in SCSS. A colour theme inspired by the plant world divides the platform into different areas that are oriented towards their life cycle. Visually, the interface is meant to look less technical, more like a printed guide. On the backend side, we installed Node.js and use a MySQL database. For real-time information, the devices communicate with the application via websocket using socket<n/>.io.
 
-- React
-- React-Dom
-- React-Router-Dom
-- Reactstrap
-- Bootstrap
-- Chart.js
-- Nodemailer
-- Validator
-- Socket.io
-- Redux
+### Tools:
 
-- Node.js
-- Express
-- Express-Session
-- Express-Fileupload
-- password-hash
-- html-entities
-- MySQL
-- Nodemon
+- Frontend:
+    - HTML
+    - SCSS
+    - Bootstrap & Reactstrap
+    - React & Redux
+    - Chart.js
 
-### Demo:
-http://ingosogo.goip.de:5000
+- Backend:
+    - Node.js
+    - Express.js
+    - MySQL
+
+- Real-time information:
+    - Socket<n/>.io
+
+- Devices:
+    - Raspberry Pi
+    - Arduino Nano
+
+### In Progress:
+
+- integrate further services, such as a gallery, a shop, a blog or a chat
+- optimised templates for different types of plants
+- link additional functions to the modules, e.g. controllable light
+- develop devices into a product
+
+### Live Demo:
+
+[Smart Garden](https://garden.felixwurst.de/)
+
+If you just want to try out the app and don't want to register right away, you can use this login:<br> `Username: felix / Password: 123`
+
+### Usage:
+
+1. download the code
+2. import sql file from the share folder into your database
+3. run `npm install` & `npm run build` in your public folder
+4. run `npm install` & `npm start` in your main folder
+5. open your browser and go to `localhost:5000`
 
 ### Authors:
-Ingo Fischer & Hamoud Shwiri & Felix Wurst & Ahmad Osman & Mostafa Othman
+
+Project Team: 
+- Ingo Fischer
+- Hamoud Shwiri
+- Felix Wurst 
+
+Teachers: 
+- Ahmad Osman: ahmad.osman@digitalcareerinstitute.org
+- Mostafa Othman: mostafa.othman@digitalcareerinstitute.org
