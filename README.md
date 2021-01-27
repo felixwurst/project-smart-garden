@@ -1,6 +1,10 @@
 # Project: Smart Garden
 
-![Prototypes](./share/images/DSC03062_bearbeitet_hd.jpg)
+### Live Demo:
+
+[Smart Garden](https://garden.felixwurst.de/)
+
+If you just want to try out the app and don't want to register right away, you can use this login:<br> `Username: felix / Password: 123`
 
 ### Description:
 
@@ -44,12 +48,6 @@ Devices:
 - link additional functions to the modules, e.g. controllable light
 - develop devices into a product
 
-### Live Demo:
-
-[Smart Garden](https://garden.felixwurst.de/)
-
-If you just want to try out the app and don't want to register right away, you can use this login:<br> `Username: felix / Password: 123`
-
 ### Usage:
 
 1. download the code
@@ -68,3 +66,5 @@ Project Team:
 Teachers @ [DCI Hamburg](https://digitalcareerinstitute.org/):
 - Ahmad Osman
 - Mostafa Othman
+
+![Prototypes](./share/images/DSC03062_bearbeitet_hd.jpg)
