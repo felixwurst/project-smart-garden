@@ -18,7 +18,7 @@ After creating an account, the user registers a master device to access its dash
 
 ### Details:
 
-For the frontend application we used React. The interface uses the functionality of Reactstrap and Bootstrap, but the design was developed entirely in SCSS. A colour theme inspired by the plant world divides the platform into different areas that are oriented towards their life cycle. Visually, the interface is meant to look less technical, more like a printed guide. On the backend side, we installed Node.js and use a MySQL database. For real-time information, the devices communicate with the application via websocket using socket<n/>.io.
+For the frontend application we used React. The interface uses the functionality of Reactstrap and Bootstrap, but the design was developed entirely in SCSS. A colour theme inspired by the plant world divides the platform into different areas that are oriented towards their life cycle. Visually, the interface is meant to look less technical, more like a printed guide. On the backend side, we installed Node.js and use a MySQL database. For real-time information, the devices communicate with the application via WebSocket using Socket<n/>.io.
 
 ### Tools:
 
