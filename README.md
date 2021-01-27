@@ -63,8 +63,8 @@ If you just want to try out the app and don't want to register right away, you c
 Project Team: 
 - Ingo Fischer
 - Hamoud Shwiri
-- Felix Wurst: felix.wurst@gmail.com
+- Felix Wurst
 
-Teachers: 
-- Ahmad Osman: ahmad.osman@digitalcareerinstitute.org
-- Mostafa Othman: mostafa.othman@digitalcareerinstitute.org
+Teachers @ [DCI Hamburg](https://digitalcareerinstitute.org/):
+- Ahmad Osman
+- Mostafa Othman
