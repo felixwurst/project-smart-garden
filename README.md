@@ -18,24 +18,24 @@ For the frontend application we used React. The interface uses the functionality
 
 ### Tools:
 
-- Frontend:
-    - HTML
-    - SCSS
-    - Bootstrap & Reactstrap
-    - React & Redux
-    - Chart.js
+Frontend:
+- HTML
+- SCSS
+- Bootstrap & Reactstrap
+- React & Redux
+- Chart.js
 
-- Backend:
-    - Node.js
-    - Express.js
-    - MySQL
+Backend:
+- Node.js
+- Express.js
+- MySQL
 
-- Real-time information:
-    - Socket<n/>.io
+Real-time information:
+- Socket<n/>.io
 
-- Devices:
-    - Raspberry Pi
-    - Arduino Nano
+Devices:
+- Raspberry Pi
+- Arduino Nano
 
 ### In Progress:
 
@@ -63,7 +63,7 @@ If you just want to try out the app and don't want to register right away, you c
 Project Team: 
 - Ingo Fischer
 - Hamoud Shwiri
-- Felix Wurst 
+- Felix Wurst: felix.wurst@gmail.com
 
 Teachers: 
 - Ahmad Osman: ahmad.osman@digitalcareerinstitute.org
